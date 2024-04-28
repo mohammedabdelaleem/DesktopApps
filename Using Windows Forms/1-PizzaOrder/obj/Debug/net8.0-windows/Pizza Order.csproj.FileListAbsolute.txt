@@ -1,0 +1,17 @@
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\bin\Debug\net8.0-windows\Pizza Order.exe
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\bin\Debug\net8.0-windows\Pizza Order.deps.json
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\bin\Debug\net8.0-windows\Pizza Order.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\bin\Debug\net8.0-windows\Pizza Order.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\bin\Debug\net8.0-windows\Pizza Order.pdb
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza_Order.Form1.resources
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\refint\Pizza Order.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.pdb
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza Order.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\ref\Pizza Order.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Pizza Order\obj\Debug\net8.0-windows\Pizza_Order.Properties.Resources.resources
