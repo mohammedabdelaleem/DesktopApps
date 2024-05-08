@@ -143,7 +143,7 @@
             button1.TabIndex = 7;
             button1.Tag = "?";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            button1.Click += button_Click;
             // 
             // button2
             // 
@@ -161,7 +161,7 @@
             button2.TabIndex = 8;
             button2.Tag = "?";
             button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            button2.Click += button_Click;
             // 
             // button3
             // 
@@ -179,7 +179,7 @@
             button3.TabIndex = 9;
             button3.Tag = "?";
             button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            button3.Click += button_Click;
             // 
             // button4
             // 
@@ -197,7 +197,7 @@
             button4.TabIndex = 10;
             button4.Tag = "?";
             button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            button4.Click += button_Click;
             // 
             // button5
             // 
@@ -215,7 +215,7 @@
             button5.TabIndex = 11;
             button5.Tag = "?";
             button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
+            button5.Click += button_Click;
             // 
             // button6
             // 
@@ -233,7 +233,7 @@
             button6.TabIndex = 12;
             button6.Tag = "?";
             button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
+            button6.Click += button_Click;
             // 
             // button7
             // 
@@ -251,7 +251,7 @@
             button7.TabIndex = 13;
             button7.Tag = "?";
             button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
+            button7.Click += button_Click;
             // 
             // button8
             // 
@@ -269,7 +269,7 @@
             button8.TabIndex = 14;
             button8.Tag = "?";
             button8.UseVisualStyleBackColor = false;
-            button8.Click += button8_Click;
+            button8.Click += button_Click;
             // 
             // button9
             // 
@@ -287,7 +287,7 @@
             button9.TabIndex = 15;
             button9.Tag = "?";
             button9.UseVisualStyleBackColor = false;
-            button9.Click += button9_Click;
+            button9.Click += button_Click;
             // 
             // Form1
             // 

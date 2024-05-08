@@ -72,7 +72,7 @@ namespace TicTacToe
                         CheckWinner();
                         break;
                 }
-            }           
+            }
             else
             {
                 MessageBox.Show("Wrong Choice", "Wrong", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -90,16 +90,16 @@ namespace TicTacToe
         private bool CheckWinner()
         {
             // h-rows
-            if (CheckValues(button1, button2, button3)|| CheckValues(button4, button5, button6)||(CheckValues(button7, button8, button9)))
+            if (CheckValues(button1, button2, button3) || CheckValues(button4, button5, button6) || (CheckValues(button7, button8, button9)))
                 return true;
 
             // v-rows
-            if (CheckValues(button1, button4, button7)|| CheckValues(button2, button5, button8)|| CheckValues(button3, button6, button9))
+            if (CheckValues(button1, button4, button7) || CheckValues(button2, button5, button8) || CheckValues(button3, button6, button9))
                 return true;
 
             // diagonals
             if (CheckValues(button1, button5, button9) || (CheckValues(button3, button5, button7)))
-                return true;    
+                return true;
 
             return false;
 
@@ -158,49 +158,56 @@ namespace TicTacToe
             MessageBox.Show(lblWinner.Text, "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
-        private void button1_Click(object sender, EventArgs e)
+
+        // sender -> btn that fire an event , we can use the sender as a general btn to make less complexity and use DRY Concept
+        private void button_Click(object sender, EventArgs e)
         {
-            ChangeImage(button1);
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button2);
+            ChangeImage((Button) sender);
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button3);
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button1);
+        //}
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button2);
+        //}
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button4);
-        }
+        //private void button3_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button3);
+        //}
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button5);
-        }
+        //private void button4_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button4);
+        //}
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button6);
-        }
+        //private void button5_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button5);
+        //}
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button7);
-        }
+        //private void button6_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button6);
+        //}
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button8);
-        }
+        //private void button7_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button7);
+        //}
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            ChangeImage(button9);
-        }
+        //private void button8_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button8);
+        //}
+
+        //private void button9_Click(object sender, EventArgs e)
+        //{
+        //    ChangeImage(button9);
+        //}
 
 
         private void btnNewGame_Click(object sender, EventArgs e)
@@ -234,6 +241,7 @@ namespace TicTacToe
             btn.Tag = "?";
             btn.BackColor = Color.Black;
         }
+
        
     }
 }
