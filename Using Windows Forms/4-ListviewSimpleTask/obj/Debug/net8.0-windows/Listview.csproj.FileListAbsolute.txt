@@ -1,0 +1,16 @@
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\bin\Debug\net8.0-windows\Listview.exe
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\bin\Debug\net8.0-windows\Listview.deps.json
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\bin\Debug\net8.0-windows\Listview.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\bin\Debug\net8.0-windows\Listview.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\bin\Debug\net8.0-windows\Listview.pdb
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.Form1.resources
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\refint\Listview.dll
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.pdb
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\Listview.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\ITI\Listview\obj\Debug\net8.0-windows\ref\Listview.dll
