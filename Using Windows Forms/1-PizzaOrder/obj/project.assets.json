@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\Coding\\Basic\\Basic-C#\\ITI\\Pizza Order\\Pizza Order.csproj",
+      "projectUniqueName": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Pizza Order.csproj",
       "projectName": "Pizza Order",
-      "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\ITI\\Pizza Order\\Pizza Order.csproj",
+      "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Pizza Order.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\Coding\\Basic\\Basic-C#\\ITI\\Pizza Order\\obj\\",
+      "outputPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

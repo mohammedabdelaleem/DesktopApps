@@ -21,7 +21,7 @@ namespace TicTacToe
 
         stGameStatus GameStatus;
         enPlayer PlayerTurn = enPlayer.Player1;
-
+        int timerStart = 0;
         public Form1()
         {
             InitializeComponent();
@@ -61,6 +61,7 @@ namespace TicTacToe
                         lblTurn.Text = "Player2";
                         GameStatus.PlayCount++;
                         CheckWinner();
+
                         break;
 
                     case enPlayer.Player2:
@@ -143,10 +144,12 @@ namespace TicTacToe
             {
                 case enWinner.Player1:
                     lblWinner.Text = "Player1";
+                    ShowWinnerNotify(lblWinner.Text);
                     break;
 
                 case enWinner.Player2:
                     lblWinner.Text = "Player2";
+                    ShowWinnerNotify(lblWinner.Text);
                     break;
 
                 default:
@@ -154,15 +157,25 @@ namespace TicTacToe
                     break;
 
             }
-
+            timer1.Enabled = false; //Stop Timer
             MessageBox.Show(lblWinner.Text, "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
+        private void ShowWinnerNotify(string winner)
+        {
+            if (winner.Equals("Draw", StringComparison.OrdinalIgnoreCase)) return;
+
+            notifyIcon1.Icon = SystemIcons.Application;
+            notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+            notifyIcon1.BalloonTipTitle = "Congratiolation";
+            notifyIcon1.BalloonTipText = winner;
+            notifyIcon1.ShowBalloonTip(500);
         }
 
         // sender -> btn that fire an event , we can use the sender as a general btn to make less complexity and use DRY Concept
         private void button_Click(object sender, EventArgs e)
         {
-            ChangeImage((Button) sender);
+            ChangeImage((Button)sender);
         }
 
         //private void button1_Click(object sender, EventArgs e)
@@ -233,6 +246,10 @@ namespace TicTacToe
             GameStatus.GameOver = false;
             GameStatus.PlayCount = 0;
             PlayerTurn = enPlayer.Player1;
+
+            lblTimer.ForeColor = Color.GreenYellow;
+            timerStart = 0;
+            timer1.Enabled = true;
         }
 
         private void ReseatButton(Button btn)
@@ -242,6 +259,27 @@ namespace TicTacToe
             btn.BackColor = Color.Black;
         }
 
-       
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lblTurn.Text = "Player 1";
+            timerStart = 0;
+            timer1.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timerStart++;
+            if (timerStart > 6)
+                lblTimer.ForeColor = Color.Gold;
+            if (timerStart > 12)
+                lblTimer.ForeColor = Color.Red;
+
+            lblTimer.Text = timerStart.ToString();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

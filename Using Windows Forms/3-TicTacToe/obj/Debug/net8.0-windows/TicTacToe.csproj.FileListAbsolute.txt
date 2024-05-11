@@ -15,3 +15,21 @@ D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\refin
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.pdb
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.genruntimeconfig.cache
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\ref\TicTacToe.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\bin\Debug\net8.0-windows\TicTacToe.exe
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\bin\Debug\net8.0-windows\TicTacToe.deps.json
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\bin\Debug\net8.0-windows\TicTacToe.runtimeconfig.json
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\bin\Debug\net8.0-windows\TicTacToe.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\bin\Debug\net8.0-windows\TicTacToe.pdb
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.Form1.resources
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.Properties.Resources.resources
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.GenerateResource.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.AssemblyInfo.cs
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.sourcelink.json
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\refint\TicTacToe.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.pdb
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\TicTacToe.genruntimeconfig.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\obj\Debug\net8.0-windows\ref\TicTacToe.dll

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             lblTurn = new Label();
@@ -45,6 +46,11 @@
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
+            label4 = new Label();
+            lblTimer = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            notifyIcon1 = new NotifyIcon(components);
+            btnExit = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -53,7 +59,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Yellow;
-            label1.Location = new Point(58, 252);
+            label1.Location = new Point(119, 212);
             label1.Name = "label1";
             label1.Size = new Size(130, 62);
             label1.TabIndex = 0;
@@ -63,11 +69,11 @@
             // 
             lblTurn.AccessibleDescription = "4";
             lblTurn.AutoSize = true;
-            lblTurn.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblTurn.Font = new Font("Segoe UI", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblTurn.ForeColor = Color.Lime;
-            lblTurn.Location = new Point(39, 314);
+            lblTurn.Location = new Point(106, 274);
             lblTurn.Name = "lblTurn";
-            lblTurn.Size = new Size(183, 60);
+            lblTurn.Size = new Size(167, 54);
             lblTurn.TabIndex = 1;
             lblTurn.Text = "Player1";
             // 
@@ -76,7 +82,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Yellow;
-            label3.Location = new Point(39, 420);
+            label3.Location = new Point(90, 445);
             label3.Name = "label3";
             label3.Size = new Size(188, 62);
             label3.TabIndex = 2;
@@ -85,11 +91,11 @@
             // lblWinner
             // 
             lblWinner.AutoSize = true;
-            lblWinner.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblWinner.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblWinner.ForeColor = Color.Lime;
-            lblWinner.Location = new Point(23, 482);
+            lblWinner.Location = new Point(79, 507);
             lblWinner.Name = "lblWinner";
-            lblWinner.Size = new Size(253, 60);
+            lblWinner.Size = new Size(213, 50);
             lblWinner.TabIndex = 3;
             lblWinner.Text = "In Progress";
             // 
@@ -119,9 +125,9 @@
             // 
             btnNewGame.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnNewGame.ForeColor = SystemColors.ActiveCaptionText;
-            btnNewGame.Location = new Point(32, 598);
+            btnNewGame.Location = new Point(37, 608);
             btnNewGame.Name = "btnNewGame";
-            btnNewGame.Size = new Size(183, 52);
+            btnNewGame.Size = new Size(137, 52);
             btnNewGame.TabIndex = 6;
             btnNewGame.Text = "New Game";
             btnNewGame.UseVisualStyleBackColor = true;
@@ -289,12 +295,59 @@
             button9.UseVisualStyleBackColor = false;
             button9.Click += button_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold | FontStyle.Italic);
+            label4.ForeColor = Color.Yellow;
+            label4.Location = new Point(106, 351);
+            label4.Name = "label4";
+            label4.Size = new Size(156, 62);
+            label4.TabIndex = 16;
+            label4.Text = "Timer";
+            // 
+            // lblTimer
+            // 
+            lblTimer.AutoSize = true;
+            lblTimer.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold | FontStyle.Italic);
+            lblTimer.ForeColor = Color.PaleTurquoise;
+            lblTimer.Location = new Point(251, 351);
+            lblTimer.Name = "lblTimer";
+            lblTimer.Size = new Size(54, 62);
+            lblTimer.TabIndex = 17;
+            lblTimer.Text = "0";
+            // 
+            // timer1
+            // 
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
+            // notifyIcon1
+            // 
+            notifyIcon1.Text = "notifyIcon1";
+            notifyIcon1.Visible = true;
+            // 
+            // btnExit
+            // 
+            btnExit.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnExit.ForeColor = SystemColors.ActiveCaptionText;
+            btnExit.Location = new Point(206, 608);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(137, 52);
+            btnExit.TabIndex = 18;
+            btnExit.Text = "Exit";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(1335, 692);
+            ClientSize = new Size(1176, 692);
+            Controls.Add(btnExit);
+            Controls.Add(lblTimer);
+            Controls.Add(label4);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -314,9 +367,12 @@
             ForeColor = SystemColors.ButtonHighlight;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
+            MaximumSize = new Size(1194, 739);
+            MinimumSize = new Size(1194, 739);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tic Tac Toe";
+            Load += Form1_Load;
             Paint += Form1_Paint;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -341,5 +397,10 @@
         private Button button7;
         private Button button8;
         private Button button9;
+        private Label label4;
+        private Label lblTimer;
+        private System.Windows.Forms.Timer timer1;
+        private NotifyIcon notifyIcon1;
+        private Button btnExit;
     }
 }

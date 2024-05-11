@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TicTacToe
-build_property.ProjectDir = D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\
+build_property.ProjectDir = D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\3-TicTacToe\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

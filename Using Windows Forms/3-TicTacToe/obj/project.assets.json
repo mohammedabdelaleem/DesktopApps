@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\Coding\\Basic\\Basic-C#\\ITI\\TicTacToe\\TicTacToe.csproj",
+      "projectUniqueName": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\3-TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\ITI\\TicTacToe\\TicTacToe.csproj",
+      "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\3-TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\Coding\\Basic\\Basic-C#\\ITI\\TicTacToe\\obj\\",
+      "outputPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\3-TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
