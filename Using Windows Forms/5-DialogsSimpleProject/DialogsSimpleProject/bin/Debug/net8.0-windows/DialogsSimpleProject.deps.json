@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DialogsSimpleProject/1.0.0": {
+        "runtime": {
+          "DialogsSimpleProject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DialogsSimpleProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

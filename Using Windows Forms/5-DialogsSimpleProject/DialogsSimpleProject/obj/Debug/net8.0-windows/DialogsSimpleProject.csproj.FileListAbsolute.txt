@@ -1,0 +1,17 @@
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\bin\Debug\net8.0-windows\DialogsSimpleProject.exe
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\bin\Debug\net8.0-windows\DialogsSimpleProject.deps.json
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\bin\Debug\net8.0-windows\DialogsSimpleProject.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\bin\Debug\net8.0-windows\DialogsSimpleProject.dll
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\bin\Debug\net8.0-windows\DialogsSimpleProject.pdb
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.dll
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\refint\DialogsSimpleProject.dll
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.pdb
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\ref\DialogsSimpleProject.dll
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.RTF.resources
+D:\University\Coding\Basic\Basic-C#\Projects\DialogsSimpleProject\DialogsSimpleProject\obj\Debug\net8.0-windows\DialogsSimpleProject.DlgCustom.resources

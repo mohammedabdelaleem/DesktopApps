@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|d:\\university\\coding\\basic\\basic-c#\\projects\\dialogssimpleproject\\dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|d:\\university\\coding\\basic\\basic-c#\\projects\\dialogssimpleproject\\dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 302,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 98,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs",
+              "RelativeDocumentMoniker": "DialogsSimpleProject\\Form1.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs [Design]",
+              "RelativeToolTip": "DialogsSimpleProject\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:38:34.177Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf7341e6-9713-4309-bea6-cdb743e1804d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DlgCustom.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\DlgCustom.cs",
+              "RelativeDocumentMoniker": "DialogsSimpleProject\\DlgCustom.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\DlgCustom.cs",
+              "RelativeToolTip": "DialogsSimpleProject\\DlgCustom.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:05:24.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DlgCustom.cs [Design]",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\DlgCustom.cs",
+              "RelativeDocumentMoniker": "DialogsSimpleProject\\DlgCustom.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\DlgCustom.cs [Design]",
+              "RelativeToolTip": "DialogsSimpleProject\\DlgCustom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T10:44:20.108Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs",
+              "RelativeDocumentMoniker": "DialogsSimpleProject\\Form1.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs",
+              "RelativeToolTip": "DialogsSimpleProject\\Form1.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAvwEwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:34:58.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
