@@ -23,15 +23,15 @@ namespace Pizza_Order
             float price = 0;
             if (chkExtraCheese.Checked)
                 price += Convert.ToSingle(chkExtraCheese.Tag);
-             if (chkMusrooms.Checked)
+            if (chkMusrooms.Checked)
                 price += Convert.ToSingle(chkMusrooms.Tag);
-             if (chkTomatoes.Checked)
+            if (chkTomatoes.Checked)
                 price += Convert.ToSingle(chkTomatoes.Tag);
-             if (chkOnion.Checked)
+            if (chkOnion.Checked)
                 price += Convert.ToSingle(chkOnion.Tag);
-             if (chkOlives.Checked)
+            if (chkOlives.Checked)
                 price += Convert.ToSingle(chkOlives.Tag);
-             if (chkGreenPepper.Checked)
+            if (chkGreenPepper.Checked)
                 price += Convert.ToSingle(chkGreenPepper.Tag);
 
             return price;
@@ -51,9 +51,10 @@ namespace Pizza_Order
             return GetSelectedSizePrice() + CalculateToppingsPrice() + GetCrustTypePrice();
         }
 
-        void UpdateTotalPrice()
+        void UpdateTotalPrice(byte NumberOfPizza=0)
         {
-            lblTotalPrice.Text = "$" + CalculateTotalPrice().ToString();
+            NumberOfPizza = byte.Parse(numericUpDown1.Value.ToString().Trim());
+            lblTotalPrice.Text = "$" + (CalculateTotalPrice() * NumberOfPizza).ToString();
         }
 
         private void UpdateSize()
@@ -173,7 +174,7 @@ namespace Pizza_Order
 
                 chkExtraCheese.Checked = false;
                 chkGreenPepper.Checked = false;
-                chkMusrooms.Checked = false;    
+                chkMusrooms.Checked = false;
                 chkOlives.Checked = false;
                 chkTomatoes.Checked = false;
                 chkOnion.Checked = false;
@@ -244,6 +245,11 @@ namespace Pizza_Order
         private void rbTakeOut_CheckedChanged(object sender, EventArgs e)
         {
             UpdateWhereToEat();
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            UpdateTotalPrice();
         }
     }
 }

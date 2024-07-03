@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C861706A-9433-4E6A-8E7A-7C99DDD20B5B}|Pizza Order.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C861706A-9433-4E6A-8E7A-7C99DDD20B5B}|Pizza Order.csproj|d:\\university\\coding\\basic\\1-mygit\\4-desktopapps\\using windows forms\\1-pizzaorder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C861706A-9433-4E6A-8E7A-7C99DDD20B5B}|Pizza Order.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C861706A-9433-4E6A-8E7A-7C99DDD20B5B}|Pizza Order.csproj|d:\\university\\coding\\basic\\1-mygit\\4-desktopapps\\using windows forms\\1-pizzaorder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C861706A-9433-4E6A-8E7A-7C99DDD20B5B}|Pizza Order.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C861706A-9433-4E6A-8E7A-7C99DDD20B5B}|Pizza Order.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,8 +26,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T23:50:04.313Z",
               "IsPinned": true,
@@ -43,12 +43,22 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAADUAAAAAAAAAAAA9wHAAAAAJAAAA",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\1-PizzaOrder\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAAAPgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T01:08:21.973Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 98,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf7341e6-9713-4309-bea6-cdb743e1804d}"
             }
           ]
         }

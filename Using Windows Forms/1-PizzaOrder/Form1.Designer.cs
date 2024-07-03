@@ -61,11 +61,14 @@
             lblTotalPrice = new Label();
             lblSize1 = new Label();
             groupBox2 = new GroupBox();
+            numericUpDown1 = new NumericUpDown();
+            label1 = new Label();
             gbPizzaSize.SuspendLayout();
             gbToppings.SuspendLayout();
             gbCrustType.SuspendLayout();
             gbEatPlace.SuspendLayout();
             groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -95,7 +98,7 @@
             gbPizzaSize.Location = new Point(293, 168);
             gbPizzaSize.Name = "gbPizzaSize";
             gbPizzaSize.Size = new Size(157, 239);
-            gbPizzaSize.TabIndex = 4;
+            gbPizzaSize.TabIndex = 1;
             gbPizzaSize.TabStop = false;
             gbPizzaSize.Text = "Size";
             // 
@@ -108,7 +111,7 @@
             rbMedium.Location = new Point(30, 115);
             rbMedium.Name = "rbMedium";
             rbMedium.Size = new Size(99, 29);
-            rbMedium.TabIndex = 6;
+            rbMedium.TabIndex = 1;
             rbMedium.TabStop = true;
             rbMedium.Tag = "20";
             rbMedium.Text = "Medium";
@@ -124,7 +127,7 @@
             rbLarge.Location = new Point(30, 174);
             rbLarge.Name = "rbLarge";
             rbLarge.Size = new Size(76, 29);
-            rbLarge.TabIndex = 5;
+            rbLarge.TabIndex = 2;
             rbLarge.Tag = "40";
             rbLarge.Text = "Large";
             rbLarge.TextAlign = ContentAlignment.TopCenter;
@@ -139,7 +142,7 @@
             rbSmall.Location = new Point(30, 56);
             rbSmall.Name = "rbSmall";
             rbSmall.Size = new Size(76, 29);
-            rbSmall.TabIndex = 4;
+            rbSmall.TabIndex = 0;
             rbSmall.Tag = "10";
             rbSmall.Text = "Small";
             rbSmall.TextAlign = ContentAlignment.TopCenter;
@@ -162,8 +165,8 @@
             gbToppings.ForeColor = Color.DarkOrange;
             gbToppings.Location = new Point(556, 168);
             gbToppings.Name = "gbToppings";
-            gbToppings.Size = new Size(355, 231);
-            gbToppings.TabIndex = 11;
+            gbToppings.Size = new Size(472, 231);
+            gbToppings.TabIndex = 2;
             gbToppings.TabStop = false;
             gbToppings.Text = "Toppings";
             // 
@@ -175,7 +178,7 @@
             chkOnion.Location = new Point(209, 57);
             chkOnion.Name = "chkOnion";
             chkOnion.Size = new Size(83, 29);
-            chkOnion.TabIndex = 16;
+            chkOnion.TabIndex = 3;
             chkOnion.Tag = "5";
             chkOnion.Text = "Onion";
             chkOnion.UseVisualStyleBackColor = true;
@@ -189,7 +192,7 @@
             chkOlives.Location = new Point(209, 111);
             chkOlives.Name = "chkOlives";
             chkOlives.Size = new Size(82, 29);
-            chkOlives.TabIndex = 15;
+            chkOlives.TabIndex = 4;
             chkOlives.Tag = "5";
             chkOlives.Text = "Olives";
             chkOlives.UseVisualStyleBackColor = true;
@@ -203,7 +206,7 @@
             chkGreenPepper.Location = new Point(209, 165);
             chkGreenPepper.Name = "chkGreenPepper";
             chkGreenPepper.Size = new Size(140, 29);
-            chkGreenPepper.TabIndex = 14;
+            chkGreenPepper.TabIndex = 5;
             chkGreenPepper.Tag = "5";
             chkGreenPepper.Text = "Green Pepper";
             chkGreenPepper.UseVisualStyleBackColor = true;
@@ -217,7 +220,7 @@
             chkTomatoes.Location = new Point(37, 165);
             chkTomatoes.Name = "chkTomatoes";
             chkTomatoes.Size = new Size(111, 29);
-            chkTomatoes.TabIndex = 13;
+            chkTomatoes.TabIndex = 2;
             chkTomatoes.Tag = "5";
             chkTomatoes.Text = "Tomatoes";
             chkTomatoes.UseVisualStyleBackColor = true;
@@ -231,7 +234,7 @@
             chkMusrooms.Location = new Point(37, 111);
             chkMusrooms.Name = "chkMusrooms";
             chkMusrooms.Size = new Size(120, 29);
-            chkMusrooms.TabIndex = 12;
+            chkMusrooms.TabIndex = 1;
             chkMusrooms.Tag = "5";
             chkMusrooms.Text = "Musrooms";
             chkMusrooms.UseVisualStyleBackColor = true;
@@ -245,7 +248,7 @@
             chkExtraCheese.Location = new Point(37, 57);
             chkExtraCheese.Name = "chkExtraCheese";
             chkExtraCheese.Size = new Size(133, 29);
-            chkExtraCheese.TabIndex = 11;
+            chkExtraCheese.TabIndex = 0;
             chkExtraCheese.Tag = "5";
             chkExtraCheese.Text = "Extra Cheese";
             chkExtraCheese.UseVisualStyleBackColor = true;
@@ -261,7 +264,7 @@
             gbCrustType.Location = new Point(48, 185);
             gbCrustType.Name = "gbCrustType";
             gbCrustType.Size = new Size(170, 155);
-            gbCrustType.TabIndex = 15;
+            gbCrustType.TabIndex = 0;
             gbCrustType.TabStop = false;
             gbCrustType.Text = "Crust Type";
             // 
@@ -273,7 +276,7 @@
             rbThick.Location = new Point(28, 100);
             rbThick.Name = "rbThick";
             rbThick.Size = new Size(119, 29);
-            rbThick.TabIndex = 16;
+            rbThick.TabIndex = 1;
             rbThick.Tag = "30";
             rbThick.Text = "Thick Crust";
             rbThick.TextAlign = ContentAlignment.TopCenter;
@@ -289,7 +292,7 @@
             rbThin.Location = new Point(28, 53);
             rbThin.Name = "rbThin";
             rbThin.Size = new Size(112, 29);
-            rbThin.TabIndex = 15;
+            rbThin.TabIndex = 0;
             rbThin.TabStop = true;
             rbThin.Tag = "10";
             rbThin.Text = "Thin Crust";
@@ -306,8 +309,8 @@
             gbEatPlace.ForeColor = Color.DarkOrange;
             gbEatPlace.Location = new Point(568, 445);
             gbEatPlace.Name = "gbEatPlace";
-            gbEatPlace.Size = new Size(337, 106);
-            gbEatPlace.TabIndex = 16;
+            gbEatPlace.Size = new Size(295, 106);
+            gbEatPlace.TabIndex = 3;
             gbEatPlace.TabStop = false;
             gbEatPlace.Text = "Where To Eat";
             // 
@@ -319,7 +322,7 @@
             rbTakeOut.Location = new Point(157, 53);
             rbTakeOut.Name = "rbTakeOut";
             rbTakeOut.Size = new Size(102, 29);
-            rbTakeOut.TabIndex = 16;
+            rbTakeOut.TabIndex = 1;
             rbTakeOut.Tag = "0";
             rbTakeOut.Text = "Take Out";
             rbTakeOut.TextAlign = ContentAlignment.TopCenter;
@@ -335,7 +338,7 @@
             rbEatIn.Location = new Point(28, 53);
             rbEatIn.Name = "rbEatIn";
             rbEatIn.Size = new Size(77, 29);
-            rbEatIn.TabIndex = 15;
+            rbEatIn.TabIndex = 0;
             rbEatIn.TabStop = true;
             rbEatIn.Tag = "";
             rbEatIn.Text = "Eat In";
@@ -351,10 +354,10 @@
             btnOrder.FlatStyle = FlatStyle.Flat;
             btnOrder.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnOrder.ForeColor = Color.Orange;
-            btnOrder.Location = new Point(852, 591);
+            btnOrder.Location = new Point(808, 591);
             btnOrder.Name = "btnOrder";
             btnOrder.Size = new Size(146, 55);
-            btnOrder.TabIndex = 20;
+            btnOrder.TabIndex = 4;
             btnOrder.Text = "Order";
             btnOrder.UseVisualStyleBackColor = false;
             btnOrder.Click += btnOrder_Click;
@@ -362,15 +365,16 @@
             // btnReset
             // 
             btnReset.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnReset.AutoEllipsis = true;
             btnReset.BackColor = Color.Transparent;
             btnReset.FlatAppearance.BorderSize = 3;
             btnReset.FlatStyle = FlatStyle.Flat;
             btnReset.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnReset.ForeColor = Color.Orange;
-            btnReset.Location = new Point(621, 591);
+            btnReset.Location = new Point(596, 591);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(146, 55);
-            btnReset.TabIndex = 19;
+            btnReset.TabIndex = 5;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = false;
             btnReset.Click += btnReset_Click;
@@ -516,7 +520,7 @@
             groupBox2.FlatStyle = FlatStyle.Flat;
             groupBox2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox2.ForeColor = Color.Orange;
-            groupBox2.Location = new Point(1034, 168);
+            groupBox2.Location = new Point(1151, 168);
             groupBox2.Margin = new Padding(3, 3, 0, 3);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(3, 3, 0, 3);
@@ -525,13 +529,40 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Order Summary";
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.BackColor = Color.Black;
+            numericUpDown1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            numericUpDown1.ForeColor = SystemColors.InactiveBorder;
+            numericUpDown1.Location = new Point(972, 498);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(56, 43);
+            numericUpDown1.TabIndex = 18;
+            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.DarkOrange;
+            label1.Location = new Point(917, 464);
+            label1.Name = "label1";
+            label1.Size = new Size(185, 31);
+            label1.TabIndex = 19;
+            label1.Text = "Number Of Pizza";
+            // 
             // Form1
             // 
+            AcceptButton = btnOrder;
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.PizzaBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1492, 729);
+            ClientSize = new Size(1609, 729);
+            Controls.Add(label1);
+            Controls.Add(numericUpDown1);
             Controls.Add(groupBox2);
             Controls.Add(gbEatPlace);
             Controls.Add(gbCrustType);
@@ -556,6 +587,7 @@
             gbEatPlace.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -594,5 +626,7 @@
         private Label lblTotalPrice;
         private Label lblSize1;
         private GroupBox groupBox2;
+        private NumericUpDown numericUpDown1;
+        private Label label1;
     }
 }
