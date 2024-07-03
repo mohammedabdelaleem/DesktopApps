@@ -12,10 +12,11 @@ namespace Listview
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtName1.Text == null) return;
+            if (string.IsNullOrEmpty(txtName1?.Text)) return;
 
             string fileType = null;
-            ListViewItem item = new ListViewItem(txtName1.Text.Trim());
+            ListViewItem item = new ListViewItem(txtName1.Text.Trim()); // the first/base item
+
             item.SubItems.Add(date.Value.ToString()); //Date Modified
             fileType = GetType(txtName1.Text.Trim());
             item.SubItems.Add(fileType); //Folder Type

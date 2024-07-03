@@ -88,6 +88,9 @@
             imageList2.ImageStream = (ImageListStreamer)resources.GetObject("imageList2.ImageStream");
             imageList2.TransparentColor = Color.Transparent;
             imageList2.Images.SetKeyName(0, "FolderIcon.png");
+            imageList2.Images.SetKeyName(1, "pdfIcon.png");
+            imageList2.Images.SetKeyName(2, "photo.png");
+            imageList2.Images.SetKeyName(3, "textIcon.png");
             // 
             // imageList1
             // 
@@ -256,7 +259,7 @@
         private ColumnHeader DataModified;
         private ColumnHeader Type;
         private ImageList imageList1;
-        private ImageList imageList2;
         private ColumnHeader Size;
+        private ImageList imageList2;
     }
 }
