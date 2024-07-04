@@ -5,6 +5,7 @@ namespace DialogsSimpleProject
         public RTF()
         {
             InitializeComponent();
+            dlgFont.Apply += ApplyDlgFontButton;
         }
         private void RTF_Load(object sender, EventArgs e)
         {
@@ -54,14 +55,29 @@ namespace DialogsSimpleProject
         }
         private void btnFont_Click(object sender, EventArgs e)
         {
-            if (txtInput.SelectedText.Length > 0)
+            dlgFont.ShowApply=true;
+            dlgFont.ShowColor =true;
+            dlgFont.ShowEffects = true;
+
+
+            if (txtInput.SelectedText.Length > 0)// OK 
+            {
                 dlgFont.Font = txtInput.SelectionFont;
+                dlgFont.Color = txtInput.SelectionColor;
+            }
 
             if (dlgFont.ShowDialog() == DialogResult.OK)
+            {
                 txtInput.SelectionFont = dlgFont.Font;
-
+                txtInput.SelectionColor = dlgFont.Color;
+            }
         }
 
+        public void ApplyDlgFontButton(object sender, EventArgs e)
+        {
+            txtInput.SelectionFont = dlgFont.Font;
+            txtInput.SelectionColor = dlgFont.Color;
+        }
         private void btnColor_Click(object sender, EventArgs e)
         {
             if (txtInput.SelectedText.Length > 0)

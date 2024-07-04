@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\DialogsSimpleProject.csproj",
+      "projectUniqueName": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\DialogsSimpleProject.csproj",
       "projectName": "DialogsSimpleProject",
-      "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\DialogsSimpleProject.csproj",
+      "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\DialogsSimpleProject.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\DialogsSimpleProject\\DialogsSimpleProject\\obj\\",
+      "outputPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
