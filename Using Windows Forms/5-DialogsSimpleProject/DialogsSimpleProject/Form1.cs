@@ -10,8 +10,8 @@ namespace DialogsSimpleProject
         private void RTF_Load(object sender, EventArgs e)
         {
             btnExit.Click += (sender, e) => this.Close();
-            dlgOpen.Filter = "Rich Text Files|*.rtf|Text Files|*.txt";
-            dlgSave.Filter = "Rich Text Files|*.rtf|Text Files|*.txt";
+            dlgOpen.Filter = "Rich Text Files|*.rtf|Text Files|*.txt|All Files (*.*)|*.*";
+            dlgSave.Filter = "Rich Text Files|*.rtf|Text Files|*.txt|All Files (*.*)|*.*";
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
@@ -33,6 +33,8 @@ namespace DialogsSimpleProject
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            dlgSave.DefaultExt = "txt";
+            dlgSave.FilterIndex = 1;
             if (dlgSave.ShowDialog() == DialogResult.OK)
             {
                 switch (dlgSave.FilterIndex)

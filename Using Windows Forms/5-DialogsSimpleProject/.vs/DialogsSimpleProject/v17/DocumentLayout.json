@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|d:\\university\\coding\\basic\\1-mygit\\4-desktopapps\\using windows forms\\5-dialogssimpleproject\\dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|d:\\university\\coding\\basic\\1-mygit\\4-desktopapps\\using windows forms\\5-dialogssimpleproject\\dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FAC9A3A-9552-4960-912A-2D6027EFA696}|DialogsSimpleProject\\DialogsSimpleProject.csproj|solutionrelative:dialogssimpleproject\\dlgcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,11 +36,11 @@
         },
         {
           "DockedHeight": 98,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs",
               "RelativeDocumentMoniker": "DialogsSimpleProject\\Form1.cs",
@@ -57,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DlgCustom.cs",
               "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\DlgCustom.cs",
               "RelativeDocumentMoniker": "DialogsSimpleProject\\DlgCustom.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DlgCustom.cs [Design]",
               "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\DlgCustom.cs",
               "RelativeDocumentMoniker": "DialogsSimpleProject\\DlgCustom.cs",
@@ -82,13 +82,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs",
               "RelativeDocumentMoniker": "DialogsSimpleProject\\Form1.cs",
               "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\5-DialogsSimpleProject\\DialogsSimpleProject\\Form1.cs",
               "RelativeToolTip": "DialogsSimpleProject\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T09:34:58.108Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DialogsSimpleProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d75099f2c2039c6c3c746061a9c147cd4ca8ccb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7c85feaec144827b87651f7339e53e1fa99b33e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DialogsSimpleProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DialogsSimpleProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
