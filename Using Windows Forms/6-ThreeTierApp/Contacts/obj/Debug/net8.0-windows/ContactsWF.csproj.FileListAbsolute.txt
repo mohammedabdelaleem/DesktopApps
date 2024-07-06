@@ -1,0 +1,46 @@
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\bin\Debug\net8.0-windows\ContactsWF.exe
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\bin\Debug\net8.0-windows\ContactsWF.deps.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\bin\Debug\net8.0-windows\ContactsWF.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\bin\Debug\net8.0-windows\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\bin\Debug\net8.0-windows\ContactsWF.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.Form1.resources
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\refint\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ContactsWF.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\ContactsWF\obj\Debug\net8.0-windows\ref\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactsWF.exe
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactsWF.deps.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactsWF.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactsWF.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\refint\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ref\ContactsWF.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\bin\Debug\net8.0-windows\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.csproj.Up2Date
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.frmAddEditContact.resources
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.frmListContacts.resources
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\Contacts\obj\Debug\net8.0-windows\ContactsWF.Properties.Resources.resources

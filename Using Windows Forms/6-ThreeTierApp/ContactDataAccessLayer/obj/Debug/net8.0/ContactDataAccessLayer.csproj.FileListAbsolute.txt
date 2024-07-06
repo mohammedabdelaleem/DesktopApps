@@ -1,0 +1,37 @@
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.deps.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\refint\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ref\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.deps.json
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.AssemblyInfo.cs
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.sourcelink.json
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\refint\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactDataAccessLayer\obj\Debug\net8.0\ref\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.deps.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\bin\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\refint\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactDataAccessLayer\obj\Debug\net8.0\ref\ContactDataAccessLayer.dll
