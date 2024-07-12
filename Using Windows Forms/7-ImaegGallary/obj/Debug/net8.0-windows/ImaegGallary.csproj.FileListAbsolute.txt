@@ -1,0 +1,17 @@
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\bin\Debug\net8.0-windows\ImaegGallary.exe
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\bin\Debug\net8.0-windows\ImaegGallary.deps.json
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\bin\Debug\net8.0-windows\ImaegGallary.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\bin\Debug\net8.0-windows\ImaegGallary.dll
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\bin\Debug\net8.0-windows\ImaegGallary.pdb
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.Form1.resources
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.Properties.Resources.resources
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.dll
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\refint\ImaegGallary.dll
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.pdb
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ImaegGallary.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\ImaegGallary\obj\Debug\net8.0-windows\ref\ImaegGallary.dll
