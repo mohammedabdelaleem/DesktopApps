@@ -1,0 +1,16 @@
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\bin\Debug\net8.0-windows\MovePictureBox.exe
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\bin\Debug\net8.0-windows\MovePictureBox.deps.json
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\bin\Debug\net8.0-windows\MovePictureBox.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\bin\Debug\net8.0-windows\MovePictureBox.dll
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\bin\Debug\net8.0-windows\MovePictureBox.pdb
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.Form1.resources
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.dll
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\refint\MovePictureBox.dll
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.pdb
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\MovePictureBox.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\MyMainProjects\MovePictureBox\obj\Debug\net8.0-windows\ref\MovePictureBox.dll
