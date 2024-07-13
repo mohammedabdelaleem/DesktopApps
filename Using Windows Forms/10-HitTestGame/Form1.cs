@@ -37,7 +37,9 @@ namespace HitTestGame
                         label1.Text = "You Hit: "+ x.Name;
                     }
                     else
-                        x.BackColor = Color.DarkBlue;
+                       { 
+                        x.BackColor = Color.DarkBlue; 
+                    }
                 }
             }
         }
@@ -72,9 +74,5 @@ namespace HitTestGame
                 moveDown = true;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HitTestCollisionAndReactionGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+654093aac324a7c8e88af8550b9739e40a87dfca")]
 [assembly: System.Reflection.AssemblyProductAttribute("HitTestCollisionAndReactionGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HitTestCollisionAndReactionGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

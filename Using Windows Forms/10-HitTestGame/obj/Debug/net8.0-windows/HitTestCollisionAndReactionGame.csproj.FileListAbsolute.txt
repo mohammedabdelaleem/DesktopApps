@@ -14,3 +14,20 @@ D:\University\Coding\Basic\Basic-C#\MyMainProjects\HitTestGame\obj\Debug\net8.0-
 D:\University\Coding\Basic\Basic-C#\MyMainProjects\HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.pdb
 D:\University\Coding\Basic\Basic-C#\MyMainProjects\HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.genruntimeconfig.cache
 D:\University\Coding\Basic\Basic-C#\MyMainProjects\HitTestGame\obj\Debug\net8.0-windows\ref\HitTestCollisionAndReactionGame.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\bin\Debug\net8.0-windows\HitTestCollisionAndReactionGame.exe
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\bin\Debug\net8.0-windows\HitTestCollisionAndReactionGame.deps.json
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\bin\Debug\net8.0-windows\HitTestCollisionAndReactionGame.runtimeconfig.json
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\bin\Debug\net8.0-windows\HitTestCollisionAndReactionGame.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\bin\Debug\net8.0-windows\HitTestCollisionAndReactionGame.pdb
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestGame.Form1.resources
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.csproj.GenerateResource.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.AssemblyInfo.cs
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.sourcelink.json
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\refint\HitTestCollisionAndReactionGame.dll
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.pdb
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\HitTestCollisionAndReactionGame.genruntimeconfig.cache
+D:\University\Coding\Basic\1-MyGit\4-DesktopApps\Using Windows Forms\10-HitTestGame\obj\Debug\net8.0-windows\ref\HitTestCollisionAndReactionGame.dll

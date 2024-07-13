@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\Coding\\Basic\\Basic-C#\\MyMainProjects\\HitTestGame\\HitTestCollisionAndReactionGame.csproj": {}
+    "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\10-HitTestGame\\HitTestCollisionAndReactionGame.csproj": {}
   },
   "projects": {
-    "D:\\University\\Coding\\Basic\\Basic-C#\\MyMainProjects\\HitTestGame\\HitTestCollisionAndReactionGame.csproj": {
+    "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\10-HitTestGame\\HitTestCollisionAndReactionGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Coding\\Basic\\Basic-C#\\MyMainProjects\\HitTestGame\\HitTestCollisionAndReactionGame.csproj",
+        "projectUniqueName": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\10-HitTestGame\\HitTestCollisionAndReactionGame.csproj",
         "projectName": "HitTestCollisionAndReactionGame",
-        "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\MyMainProjects\\HitTestGame\\HitTestCollisionAndReactionGame.csproj",
+        "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\10-HitTestGame\\HitTestCollisionAndReactionGame.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Coding\\Basic\\Basic-C#\\MyMainProjects\\HitTestGame\\obj\\",
+        "outputPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\10-HitTestGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

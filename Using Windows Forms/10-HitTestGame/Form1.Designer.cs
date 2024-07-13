@@ -107,7 +107,6 @@
             label1.Size = new Size(132, 31);
             label1.TabIndex = 5;
             label1.Text = "You Hit : ??";
-            label1.Click += label1_Click;
             // 
             // Form1
             // 
@@ -120,6 +119,10 @@
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Controls.Add(pbPlayer);
+            Cursor = Cursors.Default;
+            MaximizeBox = false;
+            MaximumSize = new Size(869, 671);
+            MinimumSize = new Size(869, 671);
             Name = "Form1";
             Text = "Hit Test";
             KeyDown += Form1_KeyDown;
