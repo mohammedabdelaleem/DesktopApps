@@ -1,0 +1,17 @@
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\bin\Debug\net8.0-windows\Usercontrols.exe
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\bin\Debug\net8.0-windows\Usercontrols.deps.json
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\bin\Debug\net8.0-windows\Usercontrols.runtimeconfig.json
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\bin\Debug\net8.0-windows\Usercontrols.dll
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\bin\Debug\net8.0-windows\Usercontrols.pdb
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.ctrlSimpleCalculater.resources
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.Form1.resources
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.csproj.GenerateResource.cache
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.dll
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\refint\Usercontrols.dll
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.pdb
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\Usercontrols.genruntimeconfig.cache
+D:\University\Coding\Basic\Basic-C#\20\Usercontrols\obj\Debug\net8.0-windows\ref\Usercontrols.dll
