@@ -60,10 +60,11 @@
             // 
             // txtUserInput
             // 
-            txtUserInput.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtUserInput.BorderStyle = BorderStyle.None;
+            txtUserInput.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtUserInput.Location = new Point(0, 0);
             txtUserInput.Name = "txtUserInput";
-            txtUserInput.Size = new Size(375, 47);
+            txtUserInput.Size = new Size(364, 31);
             txtUserInput.TabIndex = 0;
             // 
             // btn9
@@ -189,7 +190,7 @@
             panel1.Controls.Add(btn4);
             panel1.Controls.Add(btn5);
             panel1.Font = new Font("Segoe UI", 12F);
-            panel1.Location = new Point(3, 69);
+            panel1.Location = new Point(3, 60);
             panel1.Name = "panel1";
             panel1.Size = new Size(193, 230);
             panel1.TabIndex = 13;
@@ -339,7 +340,7 @@
             panel2.Controls.Add(btnMult);
             panel2.Controls.Add(btnDiv);
             panel2.Font = new Font("Segoe UI", 10.2F);
-            panel2.Location = new Point(214, 69);
+            panel2.Location = new Point(202, 60);
             panel2.Name = "panel2";
             panel2.Size = new Size(147, 248);
             panel2.TabIndex = 14;
@@ -352,10 +353,13 @@
             // 
             // txtAns
             // 
-            txtAns.Location = new Point(239, 20);
+            txtAns.BorderStyle = BorderStyle.None;
+            txtAns.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtAns.Location = new Point(0, 31);
             txtAns.Name = "txtAns";
-            txtAns.Size = new Size(125, 27);
+            txtAns.Size = new Size(349, 24);
             txtAns.TabIndex = 15;
+            txtAns.TextAlign = HorizontalAlignment.Right;
             // 
             // ctrlSimpleCalculater
             // 
@@ -367,7 +371,7 @@
             Controls.Add(panel1);
             Controls.Add(txtUserInput);
             Name = "ctrlSimpleCalculater";
-            Size = new Size(364, 314);
+            Size = new Size(364, 300);
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
