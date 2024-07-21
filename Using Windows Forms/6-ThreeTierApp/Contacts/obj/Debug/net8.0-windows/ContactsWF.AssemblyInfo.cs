@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactsWF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b30ba119643339745daba30a473bafd539380696")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactsWF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactsWF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

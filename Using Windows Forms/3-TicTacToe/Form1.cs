@@ -1,3 +1,5 @@
+using BuissnessLayer;
+
 using TicTacToe.Properties;
 
 namespace TicTacToe
@@ -19,12 +21,110 @@ namespace TicTacToe
             public byte PlayCount;
         }
 
+        struct stPlayerStatus
+        {
+            int Win, Loss, Draw;
+        }
+        stPlayerStatus Player1Status, Player2Status;
+
         stGameStatus GameStatus;
         enPlayer PlayerTurn = enPlayer.Player1;
-        int timerStart = 0;
-        public Form1()
+        string _Player1Name, _Player2Name;
+        string _P1Turn, _P2Turn;
+
+
+
+        enum enName { _firstName, _lastName }
+        enName _WhichName;
+
+        clsPlayer player1;
+        clsPlayer player2;
+
+
+        public string Player1Name 
+        {
+            get => _Player1Name;
+          set =>_Player1Name = value;
+            }
+
+        public string Player2Name
+        {
+            get => _Player2Name;
+            set => _Player2Name = value;
+        }
+
+        public Form1(string P1Name, string P2Name)
         {
             InitializeComponent();
+
+            /// set Players Names 
+            _Player1Name = P1Name;
+            _Player2Name = P2Name;
+
+            _P1Turn = HandlePlayerTurnName(_Player1Name); // which show at lblTurn => // mohammed ali , mohammed moaz => m.ali , m.moaz
+            _P2Turn = HandlePlayerTurnName(_Player2Name);
+
+            CheckIfNamesLblAreEquals(ref _P1Turn, ref _P2Turn); // moaz ali , mazen ali => m.ali1 , m.ali2
+
+            lblTurn.Text = _P1Turn;
+
+            /// load data from DB 
+            LoadPlayersIfFound();
+        }
+
+        public Form1()
+        {
+            this.Visible = true;
+        }
+        private void CheckIfNamesLblAreEquals(ref string p1Turn, ref string p2Turn)
+        {
+            if (p1Turn.Equals(p2Turn, StringComparison.OrdinalIgnoreCase))
+            {
+                p1Turn += "1";
+                p2Turn += "2";
+
+            }
+        }
+
+        private void LoadPlayersIfFound()
+        {
+            player1 = clsPlayer.Find(GetFirst_LastName(_Player1Name, enName._firstName), GetFirst_LastName(_Player1Name, enName._lastName));
+            if (player1 == null)
+            {
+                player1 = new clsPlayer() { FirstName = GetFirst_LastName(_Player1Name, enName._firstName), LastName = GetFirst_LastName(_Player1Name, enName._lastName), Win = 0, Loss = 0, Draw = 0 }; // add new mode
+            }
+
+            player2 = clsPlayer.Find(GetFirst_LastName(_Player2Name, enName._firstName), GetFirst_LastName(_Player2Name, enName._lastName));
+            if (player2 == null)
+            {
+                player2 = new clsPlayer() { FirstName = GetFirst_LastName(_Player2Name, enName._firstName), LastName = GetFirst_LastName(_Player2Name, enName._lastName), Win = 0, Loss = 0, Draw = 0 }; // add new mode;
+            }
+        }
+
+        public string HandlePlayerTurnName(string PlayerName)
+        {
+            return PlayerName[0] + "." + GetFirst_LastName(PlayerName, enName._lastName);
+        }
+
+        private string GetFirst_LastName(string FullName, enName which)
+        {
+            int spaceIndex = FullName.IndexOf(' ');   // 0 1 2 3 (4)
+            return (which == enName._firstName) ? FullName.Substring(0, spaceIndex) : FullName.Substring(spaceIndex + 1, FullName.Length - spaceIndex - 1); // M o a z 
+        }
+        private void SplitFullName(string FullName, ref string firstName, ref string lastName)
+        {
+            string[] Names = FullName.Split(" ");
+            firstName = Names[0]; // i sure from this 
+            lastName = Names[1] ?? "Tiger";
+        }
+        /// <summary>
+        /// //////////////////////
+        /// </summary>
+        private void FillPlayerInfo()
+        {
+            string firstname = "", lastname = "";
+            SplitFullName(_Player1Name, ref firstname, ref lastname);
+            clsPlayer player1 = clsPlayer.Find(firstname, lastname);
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -58,17 +158,16 @@ namespace TicTacToe
                         btn.Image = Resources.X;
                         btn.Tag = "X";
                         PlayerTurn = enPlayer.Player2;
-                        lblTurn.Text = "Player2";
+                        lblTurn.Text = _P2Turn;
                         GameStatus.PlayCount++;
                         CheckWinner();
-
                         break;
 
                     case enPlayer.Player2:
                         btn.Image = Resources.O;
                         btn.Tag = "O";
                         PlayerTurn = enPlayer.Player1;
-                        lblTurn.Text = "Player1";
+                        lblTurn.Text = _P1Turn;
                         GameStatus.PlayCount++;
                         CheckWinner();
                         break;
@@ -143,33 +242,28 @@ namespace TicTacToe
             switch (GameStatus.Winner)
             {
                 case enWinner.Player1:
-                    lblWinner.Text = "Player1";
-                    ShowWinnerNotify(lblWinner.Text);
+                    lblWinner.Text = _Player1Name;
+                    player1.Win++;
+                    player2.Loss++;
                     break;
 
                 case enWinner.Player2:
-                    lblWinner.Text = "Player2";
-                    ShowWinnerNotify(lblWinner.Text);
+                    lblWinner.Text = _Player2Name;
+                    player2.Win++;
+                    player1.Loss++;
                     break;
 
                 default:
                     lblWinner.Text = "Draw";
+                    player1.Draw++;
+                    player2.Draw++;
                     break;
-
             }
-            timer1.Enabled = false; //Stop Timer
+
+            player1.Save();
+            player2.Save();
+
             MessageBox.Show(lblWinner.Text, "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void ShowWinnerNotify(string winner)
-        {
-            if (winner.Equals("Draw", StringComparison.OrdinalIgnoreCase)) return;
-
-            notifyIcon1.Icon = SystemIcons.Application;
-            notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
-            notifyIcon1.BalloonTipTitle = "Congratiolation";
-            notifyIcon1.BalloonTipText = winner;
-            notifyIcon1.ShowBalloonTip(500);
         }
 
         // sender -> btn that fire an event , we can use the sender as a general btn to make less complexity and use DRY Concept
@@ -228,7 +322,7 @@ namespace TicTacToe
             RestartGame();
         }
 
-        private void RestartGame()
+        public void RestartGame()
         {
             ReseatButton(button1);
             ReseatButton(button2);
@@ -240,16 +334,12 @@ namespace TicTacToe
             ReseatButton(button8);
             ReseatButton(button9);
 
-            lblTurn.Text = "Player1";
+            lblTurn.Text = _P1Turn;
             lblWinner.Text = "In Progress";
             GameStatus.Winner = enWinner.InProgress;
             GameStatus.GameOver = false;
             GameStatus.PlayCount = 0;
             PlayerTurn = enPlayer.Player1;
-
-            lblTimer.ForeColor = Color.GreenYellow;
-            timerStart = 0;
-            timer1.Enabled = true;
         }
 
         private void ReseatButton(Button btn)
@@ -259,27 +349,31 @@ namespace TicTacToe
             btn.BackColor = Color.Black;
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblTurn.Text = "Player 1";
-            timerStart = 0;
-            timer1.Enabled = true;
+
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            timerStart++;
-            if (timerStart > 6)
-                lblTimer.ForeColor = Color.Gold;
-            if (timerStart > 12)
-                lblTimer.ForeColor = Color.Red;
 
-            lblTimer.Text = timerStart.ToString();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        public Form1 GetCurrentObject()
         {
-            this.Close();
+            Form1 frm = this;
+            return frm;
+        }
+
+        frmStop frmResume1 = new frmStop();
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmResume1.FrmResume = this;
+            frmResume1.ShowDialog();
+
+            //this.Visible = true;
         }
     }
 }

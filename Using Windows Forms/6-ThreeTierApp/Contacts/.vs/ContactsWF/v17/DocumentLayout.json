@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\",
+  "WorkspaceRootPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|d:\\university\\coding\\basic\\basic-c#\\3tierapp\\new folder\\contacts\\frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|d:\\university\\coding\\basic\\1-mygit\\4-desktopapps\\using windows forms\\6-threetierapp\\contacts\\frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|solutionrelative:frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|d:\\university\\coding\\basic\\basic-c#\\3tierapp\\new folder\\contacts\\frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|solutionrelative:frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|solutionrelative:frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|d:\\university\\coding\\basic\\basic-c#\\3tierapp\\new folder\\contacts\\frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|solutionrelative:frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|d:\\university\\coding\\basic\\basic-c#\\3tierapp\\new folder\\contacts\\frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|solutionrelative:frmaddeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8B977-18EF-4721-86FC-1341489DC697}|ContactsWF.csproj|solutionrelative:frmlistcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,12 +34,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmListContacts.cs",
-              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmListContacts.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmListContacts.cs",
               "RelativeDocumentMoniker": "frmListContacts.cs",
-              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmListContacts.cs*",
-              "RelativeToolTip": "frmListContacts.cs*",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmListContacts.cs",
+              "RelativeToolTip": "frmListContacts.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAwwBsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T23:18:41.817Z",
@@ -49,10 +49,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmListContacts.cs [Design]",
-              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmListContacts.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmListContacts.cs",
               "RelativeDocumentMoniker": "frmListContacts.cs",
-              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmListContacts.cs [Design]*",
-              "RelativeToolTip": "frmListContacts.cs [Design]*",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmListContacts.cs [Design]",
+              "RelativeToolTip": "frmListContacts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T23:13:40.449Z",
               "EditorCaption": " [Design]"
@@ -61,9 +61,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "frmAddEditContact.cs [Design]",
-              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmAddEditContact.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmAddEditContact.cs",
               "RelativeDocumentMoniker": "frmAddEditContact.cs",
-              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmAddEditContact.cs [Design]",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmAddEditContact.cs [Design]",
               "RelativeToolTip": "frmAddEditContact.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T22:58:23.122Z",
@@ -71,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "frmAddEditContact.cs",
-              "DocumentMoniker": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmAddEditContact.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmAddEditContact.cs",
               "RelativeDocumentMoniker": "frmAddEditContact.cs",
-              "ToolTip": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\Contacts\\frmAddEditContact.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\Contacts\\frmAddEditContact.cs",
               "RelativeToolTip": "frmAddEditContact.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAYwK0AAAAYAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T22:50:50.445Z",
               "EditorCaption": ""

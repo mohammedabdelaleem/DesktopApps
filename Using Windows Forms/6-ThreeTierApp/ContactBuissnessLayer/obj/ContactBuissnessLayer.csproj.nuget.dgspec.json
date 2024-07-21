@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj": {}
+    "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj": {}
   },
   "projects": {
-    "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj": {
+    "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj",
+        "projectUniqueName": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj",
         "projectName": "ContactBuissnessLayer",
-        "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj",
+        "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactBuissnessLayer\\ContactBuissnessLayer.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactBuissnessLayer\\obj\\",
+        "outputPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactBuissnessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj": {
-                "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj"
+              "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj": {
+                "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj": {
+    "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj",
+        "projectUniqueName": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj",
         "projectName": "ContactDataAccessLayer",
-        "projectPath": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj",
+        "projectPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactDataAccessLayer\\ContactDataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Coding\\Basic\\Basic-C#\\3TierApp\\New folder\\ContactDataAccessLayer\\obj\\",
+        "outputPath": "D:\\University\\Coding\\Basic\\1-MyGit\\4-DesktopApps\\Using Windows Forms\\6-ThreeTierApp\\ContactDataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
