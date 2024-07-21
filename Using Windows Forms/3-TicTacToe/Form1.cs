@@ -21,17 +21,11 @@ namespace TicTacToe
             public byte PlayCount;
         }
 
-        struct stPlayerStatus
-        {
-            int Win, Loss, Draw;
-        }
-        stPlayerStatus Player1Status, Player2Status;
-
+  
         stGameStatus GameStatus;
         enPlayer PlayerTurn = enPlayer.Player1;
         string _Player1Name, _Player2Name;
         string _P1Turn, _P2Turn;
-
 
 
         enum enName { _firstName, _lastName }
@@ -44,13 +38,13 @@ namespace TicTacToe
         public string Player1Name 
         {
             get => _Player1Name;
-          set =>_Player1Name = value;
+         private set =>_Player1Name = value;
             }
 
         public string Player2Name
         {
             get => _Player2Name;
-            set => _Player2Name = value;
+          private  set => _Player2Name = value;
         }
 
         public Form1(string P1Name, string P2Name)
@@ -72,10 +66,6 @@ namespace TicTacToe
             LoadPlayersIfFound();
         }
 
-        public Form1()
-        {
-            this.Visible = true;
-        }
         private void CheckIfNamesLblAreEquals(ref string p1Turn, ref string p2Turn)
         {
             if (p1Turn.Equals(p2Turn, StringComparison.OrdinalIgnoreCase))
@@ -272,6 +262,7 @@ namespace TicTacToe
             ChangeImage((Button)sender);
         }
 
+        #region Well Abbreviation 
         //private void button1_Click(object sender, EventArgs e)
         //{
         //    ChangeImage(button1);
@@ -309,20 +300,15 @@ namespace TicTacToe
         //private void button8_Click(object sender, EventArgs e)
         //{
         //    ChangeImage(button8);
-        //}
-
+        //} 
         //private void button9_Click(object sender, EventArgs e)
         //{
         //    ChangeImage(button9);
         //}
 
-
-        private void btnNewGame_Click(object sender, EventArgs e)
-        {
-            RestartGame();
-        }
-
-        public void RestartGame()
+        #endregion
+       
+        private void RestartGame()
         {
             ReseatButton(button1);
             ReseatButton(button2);
@@ -340,6 +326,7 @@ namespace TicTacToe
             GameStatus.GameOver = false;
             GameStatus.PlayCount = 0;
             PlayerTurn = enPlayer.Player1;
+                
         }
 
         private void ReseatButton(Button btn)
@@ -366,14 +353,27 @@ namespace TicTacToe
             return frm;
         }
 
+
         frmStop frmResume1 = new frmStop();
         private void btnStop_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmResume1.FrmResume = this;
+            frmResume1.ClickPressE += StopForm;
             frmResume1.ShowDialog();
 
-            //this.Visible = true;
+        }
+
+        private void StopForm(object? sender, clsStateEventArgs e)
+        {
+            if(e.State == clsStateEventArgs.enStatus.Resume) 
+            {
+                this.Visible = true;
+            }
+            else if(e.State == clsStateEventArgs.enStatus.NewGame)
+            {
+                this.Visible = true;/////////
+                this.RestartGame();
+            }
         }
     }
 }

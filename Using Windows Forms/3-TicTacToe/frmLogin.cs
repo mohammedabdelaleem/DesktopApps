@@ -35,7 +35,7 @@ namespace TicTacToe
             }
         }
 
-       private bool IsFullName(string fullName)
+        private bool IsFullName(string fullName)
         {
             string[] f_l_Name = fullName.Split(' ');
             return f_l_Name.Length == 2;
@@ -48,10 +48,14 @@ namespace TicTacToe
 
         private void btnCancle_Click(object sender, EventArgs e)
         {
-            this.FormClosed += (sender, e) => Application.Exit();
-          //  this.Close();
-           }
+            txtP1Name.Text = "lionel messi";
+            txtP2Name.Text = "lionel messi";
 
+            this.Close();
+        }
+
+
+        frmStop frmStop1 = new frmStop();
         private void btnPlay_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtP1Name.Text) || string.IsNullOrWhiteSpace(txtP2Name.Text) || !IsFullName(txtP1Name.Text.Trim()) || !IsFullName(txtP2Name.Text.Trim()))
@@ -63,7 +67,7 @@ namespace TicTacToe
                 Form1 frm = new Form1(txtP1Name.Text, txtP2Name.Text);
                 this.Hide();
                 frm.ShowDialog();
-
+     
                 // erase players names
                 SetDefaultTextBox(txtP1Name);
                 SetDefaultTextBox(txtP2Name);
@@ -72,5 +76,6 @@ namespace TicTacToe
 
             }
         }
+
     }
 }

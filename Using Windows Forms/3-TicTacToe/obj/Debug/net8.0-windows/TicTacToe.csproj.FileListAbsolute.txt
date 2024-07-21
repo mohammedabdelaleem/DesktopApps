@@ -71,6 +71,6 @@ D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\bin\Debug\net8.0-windows\clsDa
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\bin\Debug\net8.0-windows\BuissnessLayer.pdb
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\bin\Debug\net8.0-windows\clsDataAccessLayer.pdb
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.AssemblyReference.cache
-D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.frmStartup.resources
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.Up2Date
 D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.frmFinalResults.resources
+D:\University\Coding\Basic\Basic-C#\ITI\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.frmStop.resources

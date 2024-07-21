@@ -78,7 +78,7 @@
             btnClose.UseVisualStyleBackColor = true;
             btnClose.Click += btnClose_Click;
             // 
-            // frmStartup
+            // frmStop
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -88,9 +88,9 @@
             Controls.Add(btnViewResults);
             Controls.Add(btnNewGame);
             Controls.Add(btnResume);
-            Name = "frmStartup";
+            Name = "frmStop";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmStartup";
+            Text = "Stop";
             ResumeLayout(false);
         }
 

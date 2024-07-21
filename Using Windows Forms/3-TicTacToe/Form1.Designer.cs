@@ -35,7 +35,6 @@
             lblWinner = new Label();
             label2 = new Label();
             pictureBox1 = new PictureBox();
-            btnNewGame = new Button();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -118,18 +117,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
-            // 
-            // btnNewGame
-            // 
-            btnNewGame.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnNewGame.ForeColor = SystemColors.ActiveCaptionText;
-            btnNewGame.Location = new Point(260, 368);
-            btnNewGame.Name = "btnNewGame";
-            btnNewGame.Size = new Size(145, 52);
-            btnNewGame.TabIndex = 6;
-            btnNewGame.Text = "New Game";
-            btnNewGame.UseVisualStyleBackColor = true;
-            btnNewGame.Click += btnNewGame_Click;
             // 
             // button1
             // 
@@ -297,9 +284,9 @@
             // 
             btnStop.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnStop.ForeColor = SystemColors.ActiveCaptionText;
-            btnStop.Location = new Point(43, 610);
+            btnStop.Location = new Point(58, 600);
             btnStop.Name = "btnStop";
-            btnStop.Size = new Size(145, 52);
+            btnStop.Size = new Size(145, 51);
             btnStop.TabIndex = 16;
             btnStop.Text = "Stop";
             btnStop.UseVisualStyleBackColor = true;
@@ -321,7 +308,6 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(btnNewGame);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(lblWinner);
@@ -350,7 +336,6 @@
         private Label lblWinner;
         private Label label2;
         private PictureBox pictureBox1;
-        private Button btnNewGame;
         private Button button1;
         private Button button2;
         private Button button3;
