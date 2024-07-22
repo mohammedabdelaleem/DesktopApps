@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             lblTurn = new Label();
             label3 = new Label();
-            lblWinner = new Label();
+            lblTimer = new Label();
             label2 = new Label();
             pictureBox1 = new PictureBox();
             button1 = new Button();
@@ -45,6 +46,8 @@
             button8 = new Button();
             button9 = new Button();
             btnStop = new Button();
+            GameTimer = new System.Windows.Forms.Timer(components);
+            notifyIcon1 = new NotifyIcon(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -80,21 +83,21 @@
             label3.ForeColor = Color.Yellow;
             label3.Location = new Point(39, 420);
             label3.Name = "label3";
-            label3.Size = new Size(188, 62);
+            label3.Size = new Size(156, 62);
             label3.TabIndex = 2;
-            label3.Text = "Winner";
-            label3.Click += label3_Click;
+            label3.Text = "Timer";
             // 
-            // lblWinner
+            // lblTimer
             // 
-            lblWinner.AutoSize = true;
-            lblWinner.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblWinner.ForeColor = Color.Lime;
-            lblWinner.Location = new Point(23, 482);
-            lblWinner.Name = "lblWinner";
-            lblWinner.Size = new Size(253, 60);
-            lblWinner.TabIndex = 3;
-            lblWinner.Text = "In Progress";
+            lblTimer.AutoSize = true;
+            lblTimer.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblTimer.ForeColor = Color.Lime;
+            lblTimer.Location = new Point(84, 482);
+            lblTimer.Name = "lblTimer";
+            lblTimer.Size = new Size(50, 60);
+            lblTimer.TabIndex = 3;
+            lblTimer.Text = "0";
+            lblTimer.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -292,6 +295,17 @@
             btnStop.UseVisualStyleBackColor = true;
             btnStop.Click += btnStop_Click;
             // 
+            // GameTimer
+            // 
+            GameTimer.Enabled = true;
+            GameTimer.Interval = 1000;
+            GameTimer.Tick += GameTimer_Tick;
+            // 
+            // notifyIcon1
+            // 
+            notifyIcon1.Text = "notifyIcon1";
+            notifyIcon1.Visible = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -310,7 +324,7 @@
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
-            Controls.Add(lblWinner);
+            Controls.Add(lblTimer);
             Controls.Add(label3);
             Controls.Add(lblTurn);
             Controls.Add(label1);
@@ -333,7 +347,7 @@
         private Label label1;
         private Label lblTurn;
         private Label label3;
-        private Label lblWinner;
+        private Label lblTimer;
         private Label label2;
         private PictureBox pictureBox1;
         private Button button1;
@@ -346,5 +360,7 @@
         private Button button8;
         private Button button9;
         private Button btnStop;
+        private System.Windows.Forms.Timer GameTimer;
+        private NotifyIcon notifyIcon1;
     }
 }

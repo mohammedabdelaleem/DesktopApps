@@ -21,30 +21,32 @@ namespace TicTacToe
             public byte PlayCount;
         }
 
-  
+
         stGameStatus GameStatus;
         enPlayer PlayerTurn = enPlayer.Player1;
         string _Player1Name, _Player2Name;
         string _P1Turn, _P2Turn;
-
+        string _Winner;
+        string _Loser="";
+        int _TimerCount = 0;
+        int _TempTimerCount = 0;
 
         enum enName { _firstName, _lastName }
-        enName _WhichName;
 
         clsPlayer player1;
         clsPlayer player2;
 
 
-        public string Player1Name 
+        public string Player1Name
         {
             get => _Player1Name;
-         private set =>_Player1Name = value;
-            }
+            private set => _Player1Name = value;
+        }
 
         public string Player2Name
         {
             get => _Player2Name;
-          private  set => _Player2Name = value;
+            private set => _Player2Name = value;
         }
 
         public Form1(string P1Name, string P2Name)
@@ -232,29 +234,67 @@ namespace TicTacToe
             switch (GameStatus.Winner)
             {
                 case enWinner.Player1:
-                    lblWinner.Text = _Player1Name;
+                    _Winner = "Congratulation " + _Player1Name;
+                    _Loser = _Player2Name;
                     player1.Win++;
                     player2.Loss++;
                     break;
 
                 case enWinner.Player2:
-                    lblWinner.Text = _Player2Name;
+                    _Winner = "Congratulation " + _Player2Name;
+                    _Loser = _Player1Name;
                     player2.Win++;
                     player1.Loss++;
                     break;
 
                 default:
-                    lblWinner.Text = "Draw";
+                    _Winner = "Draw (No Winner).";
                     player1.Draw++;
                     player2.Draw++;
                     break;
             }
 
+            //Updata and Save Players into DB
             player1.Save();
             player2.Save();
 
-            MessageBox.Show(lblWinner.Text, "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            GameTimer.Stop();
+
+            // Winner MSG
+            MessageBox.Show(_Winner, "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            //Losser MSG
+          if(_Loser.Length>1) 
+            ShowGoodLuck();
+
+
+            RestartGameOrNot();
         }
+
+        private void ShowGoodLuck()
+        {
+            notifyIcon1.Icon = SystemIcons.Hand;
+            notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+            notifyIcon1.BalloonTipTitle = $"Good Luck {_Loser}";
+            notifyIcon1.BalloonTipText = "Keep Going, You Did Well";
+            notifyIcon1.ShowBalloonTip(1100);
+
+        }
+
+        private void RestartGameOrNot()
+        {
+            if (MessageBox.Show("New Game, Heros","New Game",MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                RestartGame();
+            }
+            else
+            {
+                this.Close();
+            } 
+                
+        }
+
+
 
         // sender -> btn that fire an event , we can use the sender as a general btn to make less complexity and use DRY Concept
         private void button_Click(object sender, EventArgs e)
@@ -307,7 +347,7 @@ namespace TicTacToe
         //}
 
         #endregion
-       
+
         private void RestartGame()
         {
             ReseatButton(button1);
@@ -321,12 +361,15 @@ namespace TicTacToe
             ReseatButton(button9);
 
             lblTurn.Text = _P1Turn;
-            lblWinner.Text = "In Progress";
+            lblTimer.Text = _TimerCount.ToString();
             GameStatus.Winner = enWinner.InProgress;
             GameStatus.GameOver = false;
             GameStatus.PlayCount = 0;
             PlayerTurn = enPlayer.Player1;
-                
+
+            _TimerCount = 0;
+            GameTimer.Start();
+
         }
 
         private void ReseatButton(Button btn)
@@ -339,12 +382,7 @@ namespace TicTacToe
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            GameTimer.Start();
         }
 
         public Form1 GetCurrentObject()
@@ -357,6 +395,7 @@ namespace TicTacToe
         frmStop frmResume1 = new frmStop();
         private void btnStop_Click(object sender, EventArgs e)
         {
+           GameTimer.Stop();
             this.Hide();
             frmResume1.ClickPressE += StopForm;
             frmResume1.ShowDialog();
@@ -365,15 +404,22 @@ namespace TicTacToe
 
         private void StopForm(object? sender, clsStateEventArgs e)
         {
-            if(e.State == clsStateEventArgs.enStatus.Resume) 
+            if (e.State == clsStateEventArgs.enStatus.Resume)
             {
                 this.Visible = true;
+                GameTimer.Start();
             }
-            else if(e.State == clsStateEventArgs.enStatus.NewGame)
+            else if (e.State == clsStateEventArgs.enStatus.NewGame)
             {
                 this.Visible = true;/////////
                 this.RestartGame();
             }
+        }
+
+        private void GameTimer_Tick(object sender, EventArgs e)
+        {
+            _TimerCount++;
+            lblTimer.Text = _TimerCount.ToString();
         }
     }
 }
