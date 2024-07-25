@@ -1,0 +1,46 @@
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.deps.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactB.DDD0B120.Up2Date
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\refint\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ref\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.deps.json
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\bin\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.AssemblyInfo.cs
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.sourcelink.json
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactB.DDD0B120.Up2Date
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\refint\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\1-MyGit\1.1-My-Git-Basic-c#\CSharp-projects\3-Tier-App\Contacts\ContactBuissnessLayer\obj\Debug\net8.0\ref\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.deps.json
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\bin\Debug\net8.0\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\bin\Debug\net8.0\ContactDataAccessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\bin\Debug\net8.0\ContactDataAccessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.AssemblyInfoInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.AssemblyInfo.cs
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactB.DDD0B120.Up2Date
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\refint\ContactBuissnessLayer.dll
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ContactBuissnessLayer.pdb
+D:\University\Coding\Basic\Basic-C#\3TierApp\New folder\ContactBuissnessLayer\obj\Debug\net8.0\ref\ContactBuissnessLayer.dll

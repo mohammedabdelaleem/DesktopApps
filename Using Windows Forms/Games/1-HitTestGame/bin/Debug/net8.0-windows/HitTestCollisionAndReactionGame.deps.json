@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HitTestCollisionAndReactionGame/1.0.0": {
+        "runtime": {
+          "HitTestCollisionAndReactionGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HitTestCollisionAndReactionGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
